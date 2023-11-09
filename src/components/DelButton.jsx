@@ -1,9 +1,9 @@
-
+import { deleteEmployee } from "../js/requests";
 
 const DelButton = ({id}) => {
 
     const buttonHandler = () => {
-        console.log(id);
+        deleteEmployee(id);
     }
 
     return (
